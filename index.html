@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ноунейм с галочкой</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Ноунейм с галочкой</h1>
+        <p>Разработчик сайта по Wall Plast, создатель архиватора ZipUp</p>
+    </header>
+    <nav>
+        <a href="#" id="nav-about" onclick="showTab('about');return false;">О себе</a>
+        <a href="#" id="nav-projects" onclick="showTab('projects');return false;">Проекты</a>
+        <a href="#" id="nav-policy" onclick="showTab('policy');return false;">Политика</a>
+    </nav>
+    <div class="container">
+        <div id="about" class="tab-content">
+            <h2>О себе</h2>
+            <p>Привет! Я <b>Ноунейм с галочкой</b> — разработчик сайта по <a href="https://wall-plast.web.app/" target="_blank">Wall Plast</a> и создатель архиватора <b>ZipUp</b> на Python.</p>
+            <p>Языки программирования, которыми владею:</p>
+            <ul>
+                <li>Python</li>
+                <li>HTML, CSS</li>
+                <li>JavaScript</li>
+                <li>Lua</li>
+                <li>немного GLSL</li>
+            </ul>
+        </div>
+        <div id="projects" class="tab-content" style="display:none;">
+            <h2>Проекты</h2>
+            <ul>
+                <li><b>Сайт по Wall Plast</b> — <a href="https://wall-plast.web.app/" target="_blank">wall-plast.web.app</a></li>
+                <li><b>ZipUp</b> — архиватор, написанный на Python — <a href="https://github.com/UnionOfIT/ZipUp-1.3.1" target="_blank">GitHub</a></li>
+                <li><b>Шейдеры для Roblox</b> — <a href="https://github.com/UnionOfIT/Shaders-Roblox" target="_blank">GitHub</a></li>
+                <li><b>Installer</b> — установщик программ/игр — <a href="https://github.com/UnionOfIT/installer" target="_blank">GitHub</a></li>
+            </ul>
+        </div>
+        <div id="policy" class="tab-content" style="display:none;">
+            <h2>Политика</h2>
+            <p>1. Я не собираю ваши данные
+Мои приложения и сайты которые я разрабатывал (или разрабатываю) не передают никакую информацию о вас, вашем устройстве или использовании программы на какие-либо серверы
+
+Это включает:
+
+IP-адрес,
+операционную систему,
+версию процессора или объём памяти,
+список файлов, папок или архивов,
+действия внутри приложения.
+Всё, что вы делаете в моих программах, остаётся только на вашем устройстве.
+
+2. Никакой аналитики и рекламы
+В моих приложениях и на этом сайте:
+
+Нет Google Analytics, Yandex Metrika или других систем отслеживания,
+Нет рекламы,
+Нет партнёрских предложений или «рекомендаций» стороннего ПО.
+3. Данные принадлежат только вам
+Я не храню ваши персональные данные, потому что никогда их не получаю.
+Вы — единственный владелец всей информации, с которой работаете</b>.</p>
+            <div class="note">
+                Для сайта <a href="https://wall-plast.web.app/" target="_blank">Wall Plast</a> действует <b>своя политика</b>, которой я не управляю, так как сайт создан для чужой игры.
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
